@@ -8,7 +8,7 @@ import javax.swing.JFrame;
        private final static int WINDOW_HEIGHT = 600;
        
        public Pong() {
-    	   		add(new PongPanel());
+    	   	  add(new PongPanel());
               setTitle(WINDOW_TITLE);
               setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
               setResizable(false);
